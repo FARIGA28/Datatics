@@ -44,46 +44,16 @@
         <a class="hover:text-gray-500" href="">Contact</a>
         <!-- PHONE AND ICON -->
         <div class="flex justify-center items-center gap-2 hover:text-gray-500">
-          <svg
-            width="20px"
-            data-slot="icon"
-            fill="none"
-            stroke-width="1.5"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z"
-            ></path>
-          </svg>
+          <i class="fa-solid fa-phone-volume"></i>
           <p>1 800 222 000</p>
         </div>
         <!-- MESSAGE ICON AND TEXT -->
-        <div
-          class="flex justify-center items-center gap-2 bg-white py-3 px-3 rounded-md shadow-lg"
+        <button
+          class="flex justify-center items-center gap-2 bg-white py-3 px-3 rounded-md shadow-lg hover:flex-row-reverse"
         >
-          <svg
-            width="20px"
-            data-slot="icon"
-            fill="none"
-            stroke-width="1.5"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-            xmlns="http://www.w3.org/2000/svg"
-            aria-hidden="true"
-          >
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
-            ></path>
-          </svg>
+          <i class="fa-regular fa-envelope"></i>
           <a href="">Get a quote</a>
-        </div>
+        </button>
       </nav>
       <!-- thin line -->
       <div class="w-full h-[0.5px] bg-gray-300"></div>
@@ -113,10 +83,10 @@
           </p>
           <div class="flex justify-start items-center gap-5">
             <button
-              class="bg-black rounded-md text-white text-xl font-semibold py-5 px-8 relative"
+              class="bg-black rounded-md text-white text-xl font-semibold py-5 px-8 relative flex gap-2 justify-center items-center hover:flex-row-reverse"
             >
               <i class="fa-brands fa-youtube"></i>
-              How it works
+              <p>How it works</p>
             </button>
             <a href="mailto:aolagunju@dervac.com" class="text-xl font-semibold"
               >aolagunju@dervac.com</a
@@ -310,16 +280,21 @@
 
         <div class="flex justify-start items-center gap-5 my-10">
           <button
-            class="bg-black rounded-md text-white text-xl font-semibold py-5 px-8 relative"
+            class="bg-black rounded-md text-white text-xl font-semibold py-5 px-8 relative flex gap-2 justify-center items-center hover:flex-row-reverse"
           >
             <i class="fa-brands fa-youtube"></i>
-            How it works
+            <p>How it works</p>
           </button>
-          <a
-            href="./index.html"
-            class="text-xl font-semibold flex items-center gap-2"
-            ><i class="fa-solid fa-box"></i>Explore services</a
+          <div
+            class="flex gap-2 justify-center items-center hover:flex-row-reverse"
           >
+            <i class="fa-solid fa-box"></i>
+            <a
+              href="./index.html"
+              class="text-xl font-semibold flex items-center gap-2"
+              >Explore services</a
+            >
+          </div>
         </div>
       </div>
     </section>
@@ -366,9 +341,10 @@
             different tools, such as descriptive statistics.
           </p>
           <button
-            class="rounded-md drop-shadow-lg font-semibold py-4 px-10 text-white bg-black w-[180px]"
+            class="rounded-md drop-shadow-lg font-semibold py-4 px-10 text-white bg-black w-[180px] flex justify-center items-center gap-1 hover:flex-row-reverse"
           >
-            Learn more <i class="fa-solid fa-arrow-right"></i>
+            <p>Learn more</p>
+            <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
         <!-- right side of our services -->
@@ -409,9 +385,10 @@
             different tools, such as descriptive statistics.
           </p>
           <button
-            class="rounded-md drop-shadow-lg font-semibold py-4 px-10 text-white bg-black w-[180px]"
+            class="rounded-md drop-shadow-lg font-semibold py-4 px-10 text-white bg-black w-[180px] flex justify-center items-center gap-1 hover:flex-row-reverse"
           >
-            Learn more <i class="fa-solid fa-arrow-right"></i>
+            <p>Learn more</p>
+            <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
         <!-- right side of our services -->
@@ -694,7 +671,7 @@
       <img
         src="../Images/Phone-and-boy.webp"
         alt="Phone-and-boy"
-        class="-mt-[150px]"
+        class="-mt-[150px] animate-bounce-slow"
       />
 
       <!-- right side of support -->
@@ -721,5 +698,21 @@
         <div class="w-full h-[0.5px] bg-gray-400"></div>
       </div>
     </section>
+    <!-- footer section -->
+    <footer>
+      <!-- lets start section -->
+      <section>
+        <!-- black bg -->
+        <div>
+          <p>Let's start something awesome analytics together.</p>
+          <button
+            class="bg-white rounded-md text-black text-xl font-semibold py-5 px-8 relative flex justify-center items-center gap-2 hover:flex-row-reverse"
+          >
+            <i class="fa-regular fa-envelope"></i>
+            <p>Get started</p>
+          </button>
+        </div>
+      </section>
+    </footer>
   </body>
 </html>

@@ -13,9 +13,26 @@ module.exports = {
         red: "1px red", // red stroke color
         // Add more stroke widths and colors as needed
       },
+      animation: {
+        "bounce-slow": "bounce-slow 1.5s infinite",
+      },
+      keyframes: {
+        "bounce-slow": {
+          "0%, 20%, 50%, 80%, 100%": {
+            transform: "translateY(0)",
+          },
+          "40%": {
+            transform: "translateY(-30px)",
+          },
+          "60%": {
+            transform: "translateY(-15px)",
+          },
+        },
+      },
     },
   },
   plugins: [
+    require("@tailwindcss/animation"),
     function ({ addUtilities }) {
       const newUtilities = {
         ".text-stroke": {
