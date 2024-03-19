@@ -646,7 +646,7 @@
     <!-- end of world class part -->
 
     <footer
-      class="flex flex-col justify-center gap-10 bg-gradient-to-b from-gray-100 to-white"
+      class="flex flex-col justify-center gap-40 bg-gradient-to-b from-gray-100 to-white"
     >
       <!-- customer support section-->
       <section class="flex justify-center items-center gap-10 pt-20">
@@ -708,10 +708,12 @@
       </section>
 
       <!-- lets start section -->
-      <section class="w-full bg flex justify-center">
+      <section
+        class="w-full flex flex-col justify-center items-center relative"
+      >
         <!-- black bg -->
         <div
-          class="bg-black text-white flex gap-5 justify-center items-center w-[80%] px-20 py-10 rounded-xl"
+          class="bg-black text-white flex gap-10 justify-center items-center w-[80%] px-20 py-10 rounded-xl absolute"
         >
           <p class="text-[30px] font-bold">
             Let's start something awesome analytics together.
@@ -723,7 +725,60 @@
             <p>Get started</p>
           </button>
         </div>
+        <div
+          class="bg-gradient-to-r from-red-500 via-blue-500 to-green-500 w-[300px] px-[540px] py-5 absolute top-[36px] rounded-xl -z-30"
+        ></div>
       </section>
+    </footer>
+    <!-- 2nd part of the footer  -->
+    <footer class="flex flex-col justify-center items-center">
+      <nav
+        class="flex justify-between items-center w-[80%] font-semibold text-[18px] py-5 mt-20"
+      >
+        <img
+          src="./Images/datatics-logo.png"
+          alt="datatics-logo"
+          class="w-[200px]"
+        />
+        <!-- ANCHOR LIST -->
+        <div class="flex justify-center items-center gap-5">
+          <a class="hover:text-gray-500" href="">Home</a>
+          <a class="hover:text-gray-500" href="">About</a>
+          <a class="hover:text-gray-500" href="">What we do</a>
+          <a class="hover:text-gray-500" href="">Cases</a>
+          <a class="hover:text-gray-500" href="">Testimonials</a>
+          <a class="hover:text-gray-500" href="">Pricing</a>
+          <a class="hover:text-gray-500" href="">Contact</a>
+        </div>
+      </nav>
+      <!-- thin line -->
+      <div class="w-[80%] h-[0.5px] bg-gray-300 mb-10"></div>
+      <!-- last part -->
+      <div class="w-[80%] flex justify-between">
+        <p class="max-w-[600px] text-[14px] text-gray-400 font-semibold">
+          This site is protected by reCAPTCHA and the Google
+          <span>
+            <a href="../src/index.html" class="underline text-black"
+              >privacy policy</a
+            ></span
+          >and
+          <span
+            ><a href="../src/index.html" class="underline text-black"
+              >terms of service</a
+            ></span
+          >
+          apply. You must not use this website if you disagree with any of these
+          website standard terms and conditions.
+        </p>
+        <div class="flex justify-center items-center gap-5 mb-32">
+          <a href="www.facebook.com"
+            ><i class="fa-brands fa-facebook-f"></i>
+          </a>
+          <a href="www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+          <a href="www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+          <a href="www.dribbble.com"><i class="fa-brands fa-dribbble"></i></a>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
