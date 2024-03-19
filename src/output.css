@@ -554,12 +554,32 @@ video {
   position: relative;
 }
 
+.right-\[\]{
+  right: ;
+}
+
+.right-\[100px\]{
+  right: 100px;
+}
+
+.right-\[50px\]{
+  right: 50px;
+}
+
+.right-\[20px\]{
+  right: 20px;
+}
+
 .-z-20{
   z-index: -20;
 }
 
 .z-40{
   z-index: 40;
+}
+
+.z-30{
+  z-index: 30;
 }
 
 .m-20{
@@ -702,6 +722,38 @@ video {
   margin-top: -120px;
 }
 
+.-ml-\[200px\]{
+  margin-left: -200px;
+}
+
+.-ml-\[250px\]{
+  margin-left: -250px;
+}
+
+.-ml-\[300px\]{
+  margin-left: -300px;
+}
+
+.-ml-\[180px\]{
+  margin-left: -180px;
+}
+
+.-ml-\[160px\]{
+  margin-left: -160px;
+}
+
+.-ml-\[120px\]{
+  margin-left: -120px;
+}
+
+.-ml-\[130px\]{
+  margin-left: -130px;
+}
+
+.-ml-\[100px\]{
+  margin-left: -100px;
+}
+
 .flex{
   display: flex;
 }
@@ -790,6 +842,14 @@ video {
   width: 100%;
 }
 
+.w-\[200\%\]{
+  width: 200%;
+}
+
+.w-\[120\%\]{
+  width: 120%;
+}
+
 .max-w-\[180px\]{
   max-width: 180px;
 }
@@ -820,6 +880,26 @@ video {
 
 .max-w-\[600px\]{
   max-width: 600px;
+}
+
+.max-w-\[200\%\]{
+  max-width: 200%;
+}
+
+.max-w-\[150\%\]{
+  max-width: 150%;
+}
+
+.max-w-\[130\%\]{
+  max-width: 130%;
+}
+
+.max-w-\[120\%\]{
+  max-width: 120%;
+}
+
+.max-w-\[110\%\]{
+  max-width: 110%;
 }
 
 @keyframes bounce{
