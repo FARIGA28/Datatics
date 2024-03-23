@@ -3,6 +3,9 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      backgroundImage: {
+        "header": "url('/src/Images/header-bg.jpg')",
+      },
       fontFamily: {
         sans: ["Urbanist", "sans-serif"],
       },
