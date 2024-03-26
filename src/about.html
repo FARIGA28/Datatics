@@ -34,10 +34,8 @@
           class="w-[200px]"
         />
         <!-- ANCHOR LIST -->
-        <a class="hover:text-gray-500" href="/src/index.html">Home</a>
-        <a class="hover:text-gray-500 text-gray-500" href="/src/about.html"
-          >About</a
-        >
+        <a class="hover:text-gray-500" href="index.html">Home</a>
+        <a class="hover:text-gray-500 text-gray-500" href="about.html">About</a>
         <a class="hover:text-gray-500" href="">What we do</a>
         <a class="hover:text-gray-500" href="">Cases</a>
         <a class="hover:text-gray-500" href="">Testimonials</a>
@@ -100,7 +98,7 @@
       <img
         src="../src/Images/master-image.webp"
         alt="master-image"
-        class="w-1/2"
+        class="w-1/2 animate-bounce"
       />
 
       <!-- right side of master -->
@@ -140,7 +138,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col gap-5">
+        <div class="flex flex-col gap-5 mt-5">
           <div class="flex justify-start items-center gap-5">
             <div
               class="bg-green-100 w-12 h-12 rounded-full flex justify-center items-center"
@@ -148,7 +146,7 @@
               <i class="fa-solid fa-check text-green-500"></i>
             </div>
             <p class="text-black font-semibold text-[18px] max-w-[350px]">
-              Trusted by 16,000+ data-driven businesses.
+              Serverless real-time data segmentation.
               <span class="text-gray-500"
                 >Lorem ipsum is simply dummy printing.</span
               >
@@ -160,23 +158,60 @@
 
         <div class="flex justify-start items-center gap-5 my-10">
           <button
-            class="bg-black rounded-md text-white text-xl font-semibold py-5 px-8 relative flex gap-2 justify-center items-center hover:flex-row-reverse"
+            class="bg-black rounded-md text-white font-semibold py-5 px-8 relative flex gap-2 justify-center items-center hover:flex-row-reverse"
           >
-            <i class="fa-brands fa-youtube"></i>
-            <p>How it works</p>
+            <i class="fa-solid fa-box"></i>
+            <p>Explore services</p>
           </button>
           <div
             class="flex gap-2 justify-center items-center hover:flex-row-reverse"
           >
-            <i class="fa-solid fa-box"></i>
+            <i class="fa-regular fa-envelope"></i>
             <a
               href="./index.html"
               class="text-xl font-semibold flex items-center gap-2"
-              >Explore services</a
+              >Quick contact</a
             >
           </div>
         </div>
       </div>
     </section>
+    <!-- end of master scetion -->
+    <!-- Business timeline -->
+    <section>
+      <div class="flex flex-col justify-center items-center gap-5">
+        <button
+          class="bg-[#30bd9b] rounded-2xl text-white text-xs font-semibold py-2 px-5"
+        >
+          PROCESS CYCLE
+        </button>
+        <div>
+          <p
+            class="text-[56px] font-bold max-w-[500px] leading-[50px] text-center"
+          >
+            Business timeline
+          </p>
+          <!-- thin line under solution -->
+          <div class="bg-blue-100 w-2 py-2 px-28 ml-[260px] -mt-5"></div>
+        </div>
+      </div>
+
+      <!-- 01 02 03 04 part -->
+      <div class="flex w-[90%] justify-around items-center">
+        <!-- 01 part -->
+        <div class="relative">
+          <h2 class="text-[90px] text-white font-bold text-stroke hover:ml-8">
+            01
+          </h2>
+          <div class="-mt-[60px] ml-[30px]">
+            <h3 class="font-extrabold text-[22px]">Business founded</h3>
+            <p class="text-gray-500 max-w-[200px] font-serif leading-[30px]">
+              Lorem ipsum is simply text the printing typesetting standard dummy
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of business timeline -->
   </body>
 </html>
